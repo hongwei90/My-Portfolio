@@ -26,7 +26,7 @@ function smtp_send_mail($destAddress ,$subject , $content ,$fromName) {
 	
 
 	$mail->Username = "info@au56.com";    //你登录 163 的用户名
-	$mail->Password = 'weiwei2015#';
+	$mail->Password = '';
 	$mail->Subject = $subject; //设置邮件的标题
 	
 
